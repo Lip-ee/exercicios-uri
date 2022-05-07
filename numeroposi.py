@@ -1,4 +1,5 @@
-x = int(input(""))
-y = float(input(""))
+x = float(input())
+y = float(input())
 total = x/y
-print("%.3f"%total , "km/l")
+print(f'{total:.3f}km/l')
+
